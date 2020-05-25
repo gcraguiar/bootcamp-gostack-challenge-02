@@ -72,7 +72,7 @@ function App() {
           </button>
 
           <button type="submit" onClick={() => handleRemoveRepository(repository.id)}>
-            Remove
+            Remover
           </button>
         </li>
       ))} 
@@ -92,7 +92,7 @@ function App() {
         value={techs}
         onChange={e => setTechs(e.target.value)}/>
 
-        <button type="submit">Add</button>
+        <button type="submit">Adicionar</button>
 
       </form>
 
